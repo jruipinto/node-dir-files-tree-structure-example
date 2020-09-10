@@ -1,15 +1,16 @@
 {
-  "name": "node-dir-files-tree-structure-example",
+  "name": "get-directory-tree-structure-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "An example of how to retrieve directory tree structure from a path",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "J Rui Pinto",
   "license": "ISC",
   "dependencies": {
-    "node-dir": "^0.1.17"
+    "directory-tree": "^2.2.4"
   }
 }
