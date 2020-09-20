@@ -1,6 +1,6 @@
 const scanFolder = require('./scan-folder');
 
-const path = './uploads/';
+const path = './example-folder/';
 
 (
   async () => {
