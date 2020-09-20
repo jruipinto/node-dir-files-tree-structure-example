@@ -1,11 +1,11 @@
-const dirTree = require('./directory-tree-async');
+const scanFolder = require('./scan-folder');
 
-const path = './uploads';
+const path = './uploads/';
 
 (
   async () => {
     console.log(
-      await dirTree(path)
+      await scanFolder(path)
     );
   }
 )();
